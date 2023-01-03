@@ -4,5 +4,5 @@ Description=An NSA style cool bootsplash
 ModuleName=script
 
 [script]
-ImageDir=/lib/plymouth/themes/nsa-plymouth
-ScriptFile=/lib/plymouth/themes/nsa-plymouth/nsa.script
+ImageDir=/usr/share/plymouth/themes/nsa
+ScriptFile=/usr/share/plymouth/themes/nsa/nsa.script

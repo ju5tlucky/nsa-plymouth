@@ -5,10 +5,9 @@
 # make install.sh executable and run it from the terminal
 
 # make a new directory for storing the theme
-sudo mkdir /lib/plymouth/themes/nsa-plymouth
+sudo mkdir /usr/share/plymouth/themes/nsa
 
 # copy the contents
-sudo cp --recursive {images,nsa.plymouth,nsa.script,README.md} /lib/plymouth/themes/nsa-plymouth
-
-# set as default theme
+sudo cp --recursive {images,nsa.plymouth,nsa.script,README.md} /usr/share/plymouth/themes/nsa 
+#set as default theme
 sudo ln -sf /lib/plymouth/themes/nsa-plymouth/nsa.plymouth /etc/alternatives/default.plymouth
